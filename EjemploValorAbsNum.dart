@@ -11,7 +11,7 @@ void main() {
     print('Valor Absoluto: ($num)');
   } else {
     //print('Numero: ($num)');
-    int valor = (num * -1);
+    final int valor = num * -1;
     print('Valor Absoluto: $valor');
   }
 }
