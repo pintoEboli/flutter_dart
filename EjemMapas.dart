@@ -4,7 +4,7 @@ void main() {
 //clave : valor
 
   var provincias = {
-    924: "Badajoz",
+    924: "Zadajoz",
     956: "Cádiz",
     958: "Granada",
     959: "Huelva",
@@ -12,5 +12,7 @@ void main() {
     95: "Málaga",
     968: "Murcia"
   };
+
+  provincias.keys.toList().sort();
   provincias.forEach((k, v) => print("${k} : ${v}"));
 }
