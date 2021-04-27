@@ -22,5 +22,6 @@ void main() {
   print(somePerson.fullName);
   print(somePerson.initials);
   somePerson.fullName = "David Morales";
+  somePerson.firtsname = "Pepe";
   print(somePerson.fullName);
 }
